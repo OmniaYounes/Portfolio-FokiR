@@ -1,0 +1,542 @@
+/* x-large */
+
+@media (max-width:1399.98px)
+    {
+        
+    }
+
+/* large */
+
+@media (max-width:1199.98px)
+    {
+        
+    }
+
+/* medium */
+
+@media (max-width:991.98px)
+    {
+        /* header */
+        .context
+        {
+            left: 150px;
+            
+        }
+
+        /* hello */
+
+        .hello .dihello
+        {
+            width: 100%;
+        }
+
+        .hello .hellocontent
+        {
+            width: 60%;
+
+        }
+
+        .hello .member
+        {
+            margin: 43px;
+            top: 0px;
+            left: 0px;
+        }
+
+        /* services */
+        
+        .services .item
+        {
+            width: 50%;
+        }
+
+        /* portofolio */
+
+        .Portfolio .item
+        {
+            width: 43%;
+        }
+
+        /* counter */
+
+        .counter .icon
+        {
+            width: 21%;
+        
+        }
+
+        /* feedback */
+
+        .feedback .feedbk
+        {
+            width: 90%;
+        }
+
+        /* Blog */
+
+        .OurBlog .item
+        {
+            margin: 12px;
+        }
+
+        .OurBlog .item .blogtxt h3
+        {
+            color: #333;
+            font-size: 15px;
+            font-weight: 550;
+        }
+
+        /* contact us */
+
+        .contactUS .contact
+        {
+            width:100%;
+        }
+
+    }
+
+/* Small */
+
+@media (max-width:767.98px)
+    {
+        /* header */
+        .context
+        {
+            left: 120px;
+            
+        }
+
+        .navbar
+        {
+            padding:20px;
+            width: 95%;
+            margin: auto;
+            
+        }
+
+        /* hello */
+
+        .hello .dihello
+        {
+            width: 75%;
+        }
+
+        .hello .helloimg
+        {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .hello .hellocontent
+        {
+            width: 100%;
+
+        }
+
+        .hello .layer
+        {
+            width: 0;
+        }
+
+        /* services */
+
+        .services .big-items
+        {
+            width: 60%;
+        }
+
+        .services .item
+        {
+            width: 100%;
+        }
+
+        /* portofolio */
+
+        .Portfolio .big-items
+        {
+            width: 60%;
+        }
+
+        .Portfolio .item
+        {
+            width: 100%;
+        }
+
+        /* counter */
+
+        .counter .icon
+        {
+            width: 100%;
+        
+        }
+
+        /* feedback */
+
+        .feedback .feedbk
+        {
+            width: 65%;
+        }
+
+        .feedback .imggg
+        {
+            width: 100%;
+        }
+
+        .feedback .txt
+        {
+            width:100%;
+        }
+
+        /* Blog */
+
+        .OurBlog .Blog
+        {
+            width: 60%;
+        }
+
+        .OurBlog .item
+        {
+            width: 100%;
+        }
+
+
+        /* contact us */
+
+        .contactUS .contact
+        {
+            width:70%;
+        }
+
+        .contactUS .inp1
+        {
+            width: 100%;
+        }
+        .contactUS .inp2
+        {
+            width: 100%;
+        }
+
+        /* footer */
+
+        .footer .cont img
+        {
+            width: 22%;
+        }
+
+
+
+    }
+
+    
+/* x-Small */
+
+@media (max-width:575.98px)
+    {
+
+        /* header */
+
+        .navbar
+        {
+            width: 100%;
+        }
+
+        .navbar .logo
+        {
+            padding: 0px 10px;
+            width: 10%;
+        }
+
+        .navbar .logo .fokir
+        {
+            font-size:20px;
+        }
+
+        .navbar .content li
+        {
+            padding: 5px;
+        }
+
+        .navbar .content li a
+        {
+            font-size: 10px;
+        }
+
+        .context
+        {
+            left: 100px;
+            
+        }
+
+        .context h3
+        { 
+            font-size: 14px;
+            line-height:20px;
+        }
+        
+        .context h4
+        {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        
+        .context h1
+        {
+            font-size: 30px;
+            line-height: 20px;
+        }
+
+        /* hello */
+
+        .hello .dihello
+        {
+            width: 100%;
+        }
+
+        .hello .helloimg
+        {
+            width: 100%;
+        }
+
+        .hello .hellocontent
+        {
+            width: 100%;
+        }
+
+        .hello .layer
+        {
+            height: 300px;
+        }
+
+        .hello .dotted
+        {
+            font-size: 8px;
+        }
+
+        .hello .hellocontent table
+        {
+            width:340px;
+            font-size: 12px;
+        }
+
+        .hello button
+        {
+            width: 180px;
+        }
+
+        /* services */
+
+        .services h2
+        {
+            font-size:25px;
+            line-height:30px;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .services h2::after
+        {
+            top: 80px;
+            left:25%;
+        }
+        .services h2::before
+        {
+            top: 70px;
+            left:34%;
+        }
+        
+        .services .layer1::before
+        {
+            bottom: 2px;
+            left:34%;
+        }
+
+        .services .big-items
+        {
+            width: 80%;
+        }
+
+        .services .item
+        {
+            width: 100%;
+            padding: 10px ;
+        }
+
+        /* portfolio */
+
+        .Portfolio h2
+        {
+            font-size:25px;
+            line-height:30px;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .Portfolio h2::after
+        {
+            top: 80px;
+            left:25%;
+        }
+        .Portfolio h2::before
+        {
+            top: 70px;
+            left:34%;
+        }
+        
+        .Portfolio .layer1::before
+        {
+            bottom: 29px;
+            left:34%;
+        }
+
+        .Portfolio .text li
+        {
+            padding: 5px;
+            font-size: 12px;
+        }
+
+        .Portfolio .text li a
+        {
+            line-height:25px;
+            padding:0px 0px;
+        }
+
+        .Portfolio .big-items
+        {
+            width: 80%;
+        }
+        
+        .Portfolio .item
+        {
+            width: 100%;
+            margin: 10px;
+        }
+
+        /* feedback */
+
+        .feedback
+        {
+            margin: 15px;
+        }
+
+        .feedback h2
+        {
+            font-size:25px;
+            line-height:30px;
+            margin: 20px 0px;
+            padding: 20px 0px;
+        }
+
+        .feedback h2::after
+        {
+            top: 80px;
+            left:25%;
+        }
+        .feedback h2::before
+        {
+            top: 70px;
+            left:34%;
+        }
+        
+        .feedback .layer1::before
+        {
+            bottom: 51px;
+            left:34%;
+        }
+
+        .feedback .feedbk
+        {
+            width: 100%;
+            padding: 15px;
+        }
+
+        /* blog */
+
+        .OurBlog h2
+        {
+            font-size:30px;
+            line-height:30px;
+            margin: 20px 0px;
+            padding: 20px 0px;
+        }
+
+        .OurBlog h2::after
+        {
+            top: 80px;
+            left:25%;
+        }
+        .OurBlog h2::before
+        {
+            top: 70px;
+            left:34%;
+        }
+        
+        .OurBlog .layer1::before
+        {
+            bottom: 1px;
+            left:34%;
+        }
+
+        .OurBlog .Blog
+        {
+            width: 90%;
+        }
+        
+        .OurBlog .item
+        {
+            width: 100%;
+            margin: 10px;
+        }
+
+        .OurBlog .item .blogtxt
+        {
+            padding: 15px;
+        }
+
+        /* contact US */
+
+        .contactUS
+        {
+            padding: 50px 0;
+        }
+
+        .contactUS h2
+        {
+            font-size:30px;
+            line-height:30px;
+            margin: 20px 0px;
+            padding: 20px 0px;
+        }
+
+        .contactUS h2::after
+        {
+            top: 80px;
+            left:25%;
+        }
+        .contactUS h2::before
+        {
+            top: 70px;
+            left:34%;
+        }
+        
+        .contactUS .layer1::before
+        {
+            bottom: 1px;
+            left:34%;
+        }
+
+        .contactUS .contact
+        {
+            width:90%;
+        }
+
+        /* footer */
+
+        .footer .cont img
+        {
+            width: 42%;
+        }
+
+
+
+
+    }
